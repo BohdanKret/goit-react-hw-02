@@ -40,10 +40,8 @@ function App() {
     });
   };
 
-  const positiveFeedback = () => {
-    return Math.round((feedback.good / totalFeedback) * 100);
-  };
-
+  const positiveFeedback = Math.round((feedback.good / totalFeedback) * 100);
+  
   return (
     <>
       <Description />

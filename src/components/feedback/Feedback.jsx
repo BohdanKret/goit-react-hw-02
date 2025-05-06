@@ -4,7 +4,7 @@ export default function Feedback({ feedbackData, onPositiveFeedback }) {
       <p>Good: {feedbackData.good}</p>
       <p>Neutral: {feedbackData.neutral}</p>
       <p>Bad: {feedbackData.bad}</p>
-      <p>Positive: {onPositiveFeedback()}%</p>
+      <p>Positive: {onPositiveFeedback}%</p>
     </>
   );
 }
